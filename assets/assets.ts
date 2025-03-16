@@ -32,6 +32,11 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import github_mark from './github-mark.png'
 import github_mark_white from './github-mark-white.png'
+import profile_pic from './ip.jpeg'
+import x_black from './x-black.svg'
+import x_white from './x-white.svg'
+import linkedin_white from './linkedin-white.svg'
+import linkedin from './linkedin.svg'
 
 export const assets = {
     code_icon,
@@ -67,7 +72,12 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     github_mark,
-    github_mark_white
+    github_mark_white,
+    profile_pic,
+    linkedin,
+    linkedin_white,
+    x_black,
+    x_white
 };
 
 export const workData = [

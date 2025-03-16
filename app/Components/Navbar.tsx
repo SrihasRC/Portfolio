@@ -33,7 +33,7 @@ const Navbar = () => {
 
       <nav className={`w-full fixed top-0 px-5 py-2 lg:px-8 xl:px-[8%] flex items-center justify-between z-50 ${isScroll ? 'bg-white/50 shadow-sm backdrop-blur-lg' : ''}`}>
         <a href="#home">
-          <div className='font-work font-bold text-3xl tracking-wider'>Srihas<span className='text-red-500'>RC</span></div>
+          <div className='font-work font-bold text-3xl tracking-wider'>Srihas<span className='text-gray-600'>RC</span></div>
         </a>
 
         <ul className={`font-roboto hidden md:flex items-center gap-6 lg:gap-8 px-12 py-3 rounded-full ${isScroll ? '' : 'bg-gray-50 bg-opacity-50 shadow-sm'}`}>
