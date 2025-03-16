@@ -36,11 +36,11 @@ const Navbar = () => {
           <div className='font-work font-bold text-3xl tracking-wider'>Srihas<span className='text-red-500'>RC</span></div>
         </a>
 
-        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 px-12 py-3 rounded-full ${isScroll ? '' : 'bg-gray-50 bg-opacity-50 shadow-sm'}`}>
-          <li><a href="#home">About</a></li>
+        <ul className={`font-roboto hidden md:flex items-center gap-6 lg:gap-8 px-12 py-3 rounded-full ${isScroll ? '' : 'bg-gray-50 bg-opacity-50 shadow-sm'}`}>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
 
@@ -50,7 +50,7 @@ const Navbar = () => {
             <Image src={assets.moon_icon} alt='' className='w-6' />
           </button>
 
-          <a href='https://github.com/SrihasRC' target='_blank' className='hidden lg:flex items-center gap-2 px-4 py-2 border border-gray-500 rounded-full ml-3'>
+          <a href='https://github.com/SrihasRC' target='_blank' className='font-roboto hidden lg:flex items-center gap-2 px-4 py-2 border border-gray-500 rounded-full ml-3'>
             <Image src={assets.github_mark} alt='' className='w-6' />
             <div>GitHub</div>
           </a>
@@ -69,10 +69,10 @@ const Navbar = () => {
           <Image src={assets.close_black} alt='' className='w-6' />
         </button>
 
-        <li><a onClick={(e) => closeMenu(e)} href="#home">About</a></li>
+        <li><a onClick={(e) => closeMenu(e)} href="#home">Home</a></li>
+        <li><a onClick={(e) => closeMenu(e)} href="#about">About</a></li>
         <li><a onClick={(e) => closeMenu(e)} href="#skills">Skills</a></li>
         <li><a onClick={(e) => closeMenu(e)} href="#projects">Projects</a></li>
-        <li><a onClick={(e) => closeMenu(e)} href="#education">Education</a></li>
         <li><a onClick={(e) => closeMenu(e)} href="#contact">Contact</a></li>
       </ul>
 
