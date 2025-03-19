@@ -24,7 +24,6 @@ const Navbar = () => {
   }
 
   const closeMenu = (e?: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
-    e?.preventDefault();
     sideMenuRef.current?.style.setProperty('transform', 'translateX(16rem)');
   }
 

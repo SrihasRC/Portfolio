@@ -37,6 +37,24 @@ import x_black from './x-black.svg'
 import x_white from './x-white.svg'
 import linkedin_white from './linkedin-white.svg'
 import linkedin from './linkedin.svg'
+import python from './python.svg'
+import c from './c.svg'
+import java from './java.svg'
+import js from './javascript.svg'
+import ts from './typescript.svg'
+import html from './html.svg'
+import css from './css.svg'
+import react from './react.svg'
+import next from './nextjs.svg'
+import node from './nodejs.svg'
+import express from './express.svg'
+import supabase from './supabase.svg'
+import postman from './postman.svg'
+import linux from './linux.svg'
+import tailwind from './tailwindcss.svg'
+import mongo from './mongo_db.svg'
+import cpp from './cpp.svg'
+import clerk from './clerk.svg'
 
 export const assets = {
     code_icon,
@@ -77,7 +95,25 @@ export const assets = {
     linkedin,
     linkedin_white,
     x_black,
-    x_white
+    x_white,
+    c,
+    python,
+    java,
+    js,
+    ts,
+    react,
+    next,
+    html,
+    css,
+    node,
+    express,
+    supabase,
+    postman,
+    linux,
+    tailwind,
+    mongo,
+    cpp,
+    clerk
 };
 
 export const workData = [
