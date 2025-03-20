@@ -25,7 +25,7 @@ const Skills = () => {
               <Image src={assets.cpp} alt=''  className='w-8'/>
               <p>C++</p>
             </div>
-            <div className='hover:scale-110 cursor-pointer transition duration-200 flex justify-center items-center py-1 pl-1 py-1 pr-2 bg-white border border-gray-300 w-fit rounded-xl'>
+            <div className='hover:scale-110 cursor-pointer transition duration-200 flex justify-center items-center py-1 pl-1 pr-2 bg-white border border-gray-300 w-fit rounded-xl'>
               <Image src={assets.java} alt=''  className='w-10'/>
               <p>Java</p>
             </div>
