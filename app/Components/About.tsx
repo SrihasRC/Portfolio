@@ -13,7 +13,7 @@ const About = () => {
           </div>
 
           <div className='font-roboto text-md leading-7'>
-            <p>My technical journey started with web development, where I built projects using modern frameworks. Along the way, I picked up the fundamentals of backend development, working with databases, APIs, and authentication. While I enjoy creating things for the web, I’m also drawn to other domains like cybersecurity and AI. I’ve spent some time exploring Linux too—customizing it, working with the CLI, and trying out different tools. I’m currently in the process of deepening my backend knowledge while keeping an open mind about where my skills and interests will take me next.</p>
+            <p>I started my tech journey with web development, building projects and exploring modern frameworks. Along the way, I got into backend basics—working with databases, APIs, and authentication. While I enjoy building for the web, I’m also curious about other fields like cybersecurity and AI. I’ve tinkered with Linux too, customizing it, using the CLI, and trying out different tools. Right now, I’m diving deeper into backend development while keeping an open mind about where my interests will take me next.</p>
           </div>
 
         </div>
