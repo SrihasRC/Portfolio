@@ -1,9 +1,8 @@
 import React from 'react'
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
-import { ThemeProps } from '../types'
 
-const Header: React.FC<ThemeProps> = ({isDarkMode}) => {
+const Header: React.FC = () => {
     return (
         <div id='home' className='h-screen flex flex-col gap-6 items-center justify-center pt-5'>
             <div>

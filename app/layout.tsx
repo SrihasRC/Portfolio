@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Josefin_Sans, Ovo, Poppins, Prompt, Roboto, Tektur, Work_Sans } from "next/font/google";
+import { Josefin_Sans, Ovo, Poppins, Prompt, Roboto, Work_Sans } from "next/font/google";
 import "./globals.css";
 
 const workSans = Work_Sans({

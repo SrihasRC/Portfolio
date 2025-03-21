@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useEffect, useRef, Dispatch, SetStateAction } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import { assets } from "@/assets/assets"
 import { ThemeProps } from '../types'
