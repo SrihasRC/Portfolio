@@ -8,7 +8,7 @@ const Projects = () => {
     <div id='projects' className='min-h-screen pt-22'>
       <h2 className='text-center text-[40px] font-work font-semibold mb-12'>Projects</h2>
 
-      <div className='w-11/12 flex flex-col md:flex-row justify-center items-center flex-wrap gap-10 mx-auto'>
+      <div className='w-11/12 md:w-3/4 flex flex-col md:flex-row justify-center items-center flex-wrap gap-10 mx-auto'>
 
         <ProjectCard
           image={assets.secshare}
