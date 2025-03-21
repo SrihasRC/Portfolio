@@ -58,6 +58,10 @@ import clerk from './clerk.svg'
 import secshare from './secureshare.png'
 import netmv from './netmovies.png'
 import spotifycl from './spotifyclone.png'
+import insta_black from './instagram_black.svg'
+import insta_white from './instagram_white.svg'
+import mail_black from './email_black.png'
+import mail_white from './email_white.png'
 
 export const assets = {
     code_icon,
@@ -119,5 +123,9 @@ export const assets = {
     clerk,
     secshare,
     netmv,
-    spotifycl
+    spotifycl,
+    insta_black,
+    insta_white,
+    mail_black,
+    mail_white
 };
