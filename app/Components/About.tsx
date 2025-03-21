@@ -1,7 +1,6 @@
 import React from 'react'
-import { ThemeProps } from '../types'
 
-const About: React.FC<ThemeProps> = () => {
+const About: React.FC = () => {
   return (
     <div id='about' className='pt-24 w-11/12 mx-auto flex flex-col justify-center items-center'>
 
@@ -10,11 +9,11 @@ const About: React.FC<ThemeProps> = () => {
       <div className='flex flex-col md:flex-row gap-16 justify-center items-center'>
         <div className='flex gap-6 mt-6 flex-col md:max-w-3xl'>
           <div className='text-md leading-7'>
-            <p>I'm a tech enthusiast who loves exploring different fields and building things that interest me. While I’ve explored web development, I’m still figuring out my primary path and enjoying the learning process along the way. I’m curious by nature and always looking for opportunities to expand my knowledge, take on new challenges, and experiment with ideas that push me forward.</p>
+            <p>I&apos;m a tech enthusiast who loves exploring different fields and building things that interest me. While I&apos;ve explored web development, I&apos;m still figuring out my primary path and enjoying the learning process along the way. I&apos;m curious by nature and always looking for opportunities to expand my knowledge, take on new challenges, and experiment with ideas that push me forward.</p>
           </div>
 
           <div className='text-md leading-7'>
-            <p>I started my tech journey with web development, building projects and exploring modern frameworks. Along the way, I got into backend basics—working with databases, APIs, and authentication. While I enjoy building for the web, I’m also curious about other fields like cybersecurity and AI. I’ve tinkered with Linux too, customizing it, using the CLI, and trying out different tools. Right now, I’m diving deeper into backend development while keeping an open mind about where my interests will take me next.</p>
+            <p>I started my tech journey with web development, building projects and exploring modern frameworks. Along the way, I got into backend basics—working with databases, APIs, and authentication. While I enjoy building for the web, I&apos;m also curious about other fields like cybersecurity and AI. I&apos;ve tinkered with Linux too, customizing it, using the CLI, and trying out different tools. Right now, I&apos;m diving deeper into backend development while keeping an open mind about where my interests will take me next.</p>
           </div>
 
         </div>

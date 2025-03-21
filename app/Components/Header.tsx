@@ -9,12 +9,12 @@ const Header: React.FC = () => {
                 <Image src={assets.profile_pic} alt='' className='w-36 rounded-full hover:scale-105 transition duration-250 border-3 border-gray-800 dark:border-gray-300' />
             </div>
             <div className='flex flex-col gap-2'>
-                <h3 className='text-lg md:text-xl'>Hello! I'm</h3>
+                <h3 className='text-lg md:text-xl'>Hello! I&apos;m</h3>
                 <h1 className='text-3xl md:text-5xl font-semibold tracking-wider'>Srihas Challa</h1>
             </div>
             <div>
                 <h3 className='text-md md:text-xl px-7'>A Tech Enthusiast who enjoys building and exploring new technologies.</h3>
-                <h3 className='text-md md:text-xl px-7'>I'm always learning, experimenting, and working on projects that interest me.</h3>
+                <h3 className='text-md md:text-xl px-7'>I&apos;m always learning, experimenting, and working on projects that interest me.</h3>
 
             </div>
             <div className='flex flex-col md:flex-row justify-center items-center gap-4'>

@@ -1,9 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import { assets } from '@/assets/assets'
-import { ThemeProps } from '../types'
 
-const Footer: React.FC<ThemeProps> = (isDarkMode) => {
+const Footer: React.FC = () => {
     return (
         <div className='w-11/12 mx-auto border-t-[2px] border-gray-300 flex flex-col gap-3 xl:mt-10'>
             <h2 className='text-center font-work text-2xl font-semibold pt-10 tracking-wider'>Srihas Reddy Challa</h2>

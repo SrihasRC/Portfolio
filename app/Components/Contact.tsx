@@ -1,8 +1,7 @@
 'use client'
 import React, {useState} from 'react'
-import { ThemeProps } from '../types';
 
-const Contact: React.FC<ThemeProps> = () => {
+const Contact: React.FC = () => {
   const [result, setResult] = useState<string>("");
 
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {

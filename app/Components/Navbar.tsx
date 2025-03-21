@@ -2,9 +2,8 @@
 import React, { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import { assets } from "@/assets/assets"
-import { ThemeProps } from '../types'
 
-const Navbar: React.FC<ThemeProps> = ({isDarkMode, setIsDarkMode}) => {
+const Navbar: React.FC = () => {
   const [isScroll, setIsScroll] = useState<boolean>(false)
 
   useEffect(() => {
@@ -24,9 +23,30 @@ const Navbar: React.FC<ThemeProps> = ({isDarkMode, setIsDarkMode}) => {
     sideMenuRef.current?.style.setProperty('transform', 'translateX(-16rem)');
   }
 
-  const closeMenu = (e?: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
+  const closeMenu = () => {
     sideMenuRef.current?.style.setProperty('transform', 'translateX(16rem)');
   }
+
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false)
+
+  useEffect(() => {
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      setIsDarkMode(true)
+    }else{
+      setIsDarkMode(false)
+    }
+  }, [])
+  
+
+  useEffect(() => {
+    if(isDarkMode){
+      document.documentElement.classList.add('dark');
+      localStorage.theme = 'dark';
+    }else{
+      document.documentElement.classList.remove('dark');
+      localStorage.theme = '';
+    }
+  }, [isDarkMode])
 
   return (
     <>
@@ -68,11 +88,11 @@ const Navbar: React.FC<ThemeProps> = ({isDarkMode, setIsDarkMode}) => {
           <Image src={assets.close_black} alt='' className='w-6 dark:invert' />
         </button>
 
-        <li><a onClick={(e) => closeMenu(e)} href="#home">Home</a></li>
-        <li><a onClick={(e) => closeMenu(e)} href="#about">About</a></li>
-        <li><a onClick={(e) => closeMenu(e)} href="#skills">Skills</a></li>
-        <li><a onClick={(e) => closeMenu(e)} href="#projects">Projects</a></li>
-        <li><a onClick={(e) => closeMenu(e)} href="#contact">Contact</a></li>
+        <li><a onClick={closeMenu} href="#home">Home</a></li>
+        <li><a onClick={closeMenu} href="#about">About</a></li>
+        <li><a onClick={closeMenu} href="#skills">Skills</a></li>
+        <li><a onClick={closeMenu} href="#projects">Projects</a></li>
+        <li><a onClick={closeMenu} href="#contact">Contact</a></li>
       </ul>
 
     </>

@@ -1,9 +1,8 @@
 import React from 'react'
 import { assets } from '@/assets/assets'
 import ProjectCard from './ProjectCard'
-import { ThemeProps } from '../types'
 
-const Projects: React.FC<ThemeProps> = () => {
+const Projects: React.FC = () => {
   return (
     <div id='projects' className='min-h-screen pt-24'>
       <h2 className='text-center text-[40px] font-work font-semibold mb-12'>Projects</h2>

@@ -1,9 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import {assets} from '@/assets/assets'
-import { ThemeProps } from '../types'
 
-const Skills: React.FC<ThemeProps> = () => {
+const Skills: React.FC = () => {
   return (
     <div id='skills' className='min-h-screen w-11/12 pt-24 mx-auto'>
 
