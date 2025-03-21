@@ -4,30 +4,36 @@ import "./globals.css";
 
 const workSans = Work_Sans({
   variable: "--font-workSans",
+  subsets: ["latin"],
 });
 
 const ovo = Ovo({
   variable: "--font-ovo",
+  subsets: ["latin"],
   weight: ["400"],
 });
 
 const jos = Josefin_Sans({
   variable: "--font-jos",
+  subsets: ["latin"],
   weight: ["400"],
 });
 
 const prompt = Prompt({
   variable: "--font-prompt",
+  subsets: ["latin"],
   weight: ["400"],
 });
 
 const poppins = Poppins({
   variable: "--font-poppins",
+  subsets: ["latin"],
   weight: ["400", "500", "600", "700"]
 });
 
 const roboto = Roboto({
   variable: "--font-roboto",
+  subsets: ["latin"],
   weight: ["400", "500", "600", "700"]
 });
 
