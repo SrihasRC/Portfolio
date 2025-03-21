@@ -8,13 +8,19 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-work: var(--font-work-sans);
+  --font-work: var(--font-workSans);
   --font-ovo: var(--font-ovo);
   --font-roboto: var(--font-roboto);
+  --font-jos: var(--font-jos);
+  --font-prompt: var(--font-prompt);
   --font-poppins: var(--font-poppins);
   --color-lightHover: '#fcf4ff';
   --color-darkHover: '#2a004a';
+  --color-darkBg: #131314;
+  --color-darkBg2: #11031f;
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 html{
   @apply scroll-smooth;

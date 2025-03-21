@@ -1,13 +1,23 @@
 import type { Metadata } from "next";
-import { Ovo, Poppins, Roboto, Work_Sans } from "next/font/google";
+import { Josefin_Sans, Ovo, Poppins, Prompt, Roboto, Tektur, Work_Sans } from "next/font/google";
 import "./globals.css";
 
 const workSans = Work_Sans({
-  variable: "--font-work-sans",
+  variable: "--font-workSans",
 });
 
 const ovo = Ovo({
   variable: "--font-ovo",
+  weight: ["400"],
+});
+
+const jos = Josefin_Sans({
+  variable: "--font-jos",
+  weight: ["400"],
+});
+
+const prompt = Prompt({
+  variable: "--font-prompt",
   weight: ["400"],
 });
 
@@ -34,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${workSans.variable} ${ovo.variable} ${poppins.variable} ${roboto.variable} antialiased leading-8 overflow-x-hidden`}
+        className={`${workSans.variable} ${ovo.variable} ${poppins.variable} ${roboto.variable} ${jos.variable} ${prompt.variable} antialiased leading-8 overflow-x-hidden dark:bg-darkBg dark:text-white/90 font-prompt tracking-wide`}
       >
         {children}
       </body>

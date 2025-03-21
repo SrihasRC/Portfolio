@@ -2,10 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import { assets } from '@/assets/assets'
 import ProjectCard from './ProjectCard'
+import { ThemeProps } from '../types'
 
-const Projects = () => {
+const Projects: React.FC<ThemeProps> = () => {
   return (
-    <div id='projects' className='min-h-screen pt-22'>
+    <div id='projects' className='min-h-screen pt-24'>
       <h2 className='text-center text-[40px] font-work font-semibold mb-12'>Projects</h2>
 
       <div className='w-11/12 md:w-3/4 flex flex-col md:flex-row justify-center items-center flex-wrap gap-10 mx-auto'>
