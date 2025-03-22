@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             </ul>
             <div className='flex items-center justify-center gap-4 pt-2'>
                 <a href="https://linkedin.com/in/srihaschalla" target='_blank'><Image src={assets.linkedin} alt='' className='w-7 hover:scale-110 transition duration-200 dark:invert' /></a>
-                <a href="https://instagram.com/srihasreddy" target='_blank'><Image src={assets.insta_black} alt='' className='w-7 hover:scale-110 transition duration-200 dark:invert' /></a>
+                <a href="https://instagram.com/srihasreddyy" target='_blank'><Image src={assets.insta_black} alt='' className='w-7 hover:scale-110 transition duration-200 dark:invert' /></a>
                 <a href="https://x.com/SrihasRC" target='_blank'><Image src={assets.x_black} alt='' className='w-7 hover:scale-110 transition duration-200 dark:invert' /></a>
                 <a href="https://github.com/SrihasRC" target='_blank'><Image src={assets.github_mark} alt='' className='w-7 hover:scale-110 transition duration-200 dark:invert' /></a>
                 <a href="mailto:challasrihasreddy@gmail.com"><Image src={assets.mail_black} alt='' className='w-7 hover:scale-110 transition duration-200 dark:invert' /></a>

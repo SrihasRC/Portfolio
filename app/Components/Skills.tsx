@@ -8,9 +8,9 @@ const Skills: React.FC = () => {
 
       <h2 className='text-center text-[40px] font-work font-semibold mb-12'>Skills</h2>
 
-      <div className="w-[95%] md:w-3/4 mx-auto flex flex-col md:flex-row gap-10 flex-wrap">
+      <div className="w-full md:w-4/5 xl:w-full mx-auto flex flex-col items-center md:flex-row gap-8 justify-center flex-wrap">
 
-        <div className="w-90 mx-auto md:w-120 px-8 py-4 rounded-xl border border-gray-200 dark:border-black hover:-translate-y-2 transition duration-250 shadow-md bg-[#f6f6f6] dark:bg-[#202020]">
+        <div className="w-90 md:min-h-81 md:w-100 xl:w-120 px-8 md:px-4 xl:px-8 py-4 rounded-xl border border-gray-200 dark:border-black hover:-translate-y-2 transition duration-250 shadow-md bg-[#f6f6f6] dark:bg-[#202020]"> 
           <h3 className='text-center text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4'>Programming Languages</h3>
           <div className='flex flex-wrap justify-center gap-4 w-[90%] mx-auto'>
             <div className='hover:scale-110 dark:bg-darkBg dark:border-black dark:text-gray-200 cursor-pointer transition duration-200 flex justify-center items-center py-1 pl-1 pr-4 bg-white border border-gray-300 w-fit rounded-xl'>
@@ -32,7 +32,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="w-90 mx-auto md:w-120 px-8 py-4 border border-gray-200 dark:border-black hover:-translate-y-2 transition duration-250 shadow-md rounded-xl bg-[#f6f6f6] dark:bg-[#202020]">
+        <div className="w-90 md:min-h-81 md:w-100 xl:w-120 px-8 md:px-4 xl:px-8 py-4 border border-gray-200 dark:border-black hover:-translate-y-2 transition duration-250 shadow-md rounded-xl bg-[#f6f6f6] dark:bg-[#202020]">
           <h3 className='text-center text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4'>Frontend</h3>
           <div className='flex flex-wrap justify-center gap-4 w-[90%] mx-auto'>
             <div className='hover:scale-110 dark:bg-darkBg dark:border-black dark:text-gray-200 cursor-pointer transition duration-200 flex justify-center items-center py-1 pl-2 pr-4 bg-white border border-gray-300 w-fit rounded-xl'>
@@ -66,7 +66,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="w-90 mx-auto md:w-120 px-8 py-4 h-75 border border-gray-200 dark:border-black hover:-translate-y-2 transition duration-250 shadow-md rounded-xl bg-[#f6f6f6] dark:bg-[#202020]">
+        <div className="w-90 md:min-h-81 md:w-100 xl:w-120 px-8 md:px-4 xl:px-8 py-4 h-75 border border-gray-200 dark:border-black hover:-translate-y-2 transition duration-250 shadow-md rounded-xl bg-[#f6f6f6] dark:bg-[#202020]">
           <h3 className='text-center text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4'>Backend</h3>
           <div className='flex flex-wrap justify-center gap-4 w-[90%] mx-auto'>
             <div className='hover:scale-110 dark:bg-darkBg dark:border-black dark:text-gray-200 cursor-pointer transition duration-200 flex justify-center items-center py-1 pl-3 gap-1 pr-4 bg-white border border-gray-300 w-fit rounded-xl'>
@@ -92,7 +92,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="w-90 mx-auto md:w-120 px-8 py-4 h-75 rounded-xl border border-gray-200 dark:border-black hover:-translate-y-2 transition duration-250 shadow-md bg-[#f6f6f6] dark:bg-[#202020]">
+        <div className="w-90 md:min-h-81 md:w-100 xl:w-120 px-8 md:px-4 xl:px-8 py-4 h-75 rounded-xl border border-gray-200 dark:border-black hover:-translate-y-2 transition duration-250 shadow-md bg-[#f6f6f6] dark:bg-[#202020]">
           <h3 className='text-center text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4'>Tools/Others</h3>
           <div className='flex flex-wrap justify-center gap-4 w-[90%] mx-auto'>
             <div className='hover:scale-110 dark:bg-darkBg dark:border-black dark:text-gray-200 cursor-pointer transition duration-200 flex justify-center items-center gap-1 py-1 pl-2 pr-4 bg-white border border-gray-300 w-fit rounded-xl'>

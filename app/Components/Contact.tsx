@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div id='contact' className='w-11/12 min-h-screen pt-24 mx-auto'>
+    <div id='contact' className='w-11/12 mb-24 pt-24 mx-auto'>
 
       <h2 className='text-center text-[40px] font-work font-semibold mb-4'>Contact me</h2>
       <p className='text-center mb-8 text-gray-600 dark:text-gray-400 mt-2'>Feel free to reach out for collaborations, questions, or just a chat!</p>
