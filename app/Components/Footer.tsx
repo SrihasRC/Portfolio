@@ -8,10 +8,10 @@ const Footer: React.FC = () => {
             <h2 className='text-center font-work text-2xl font-semibold pt-10 tracking-wider'>Srihas Reddy Challa</h2>
             <ul className='flex items-center justify-center gap-4 text-gray-700 dark:text-gray-300'>
                 <li><a className='hover:text-black duration-100 dark:hover:text-white' href="#home">Home</a></li>
-                <li><a className='hover:text-black duration-100 dark:hover:text-white' href="about">About</a></li>
-                <li><a className='hover:text-black duration-100 dark:hover:text-white' href="skills">Skills</a></li>
-                <li><a className='hover:text-black duration-100 dark:hover:text-white' href="projects">Projects</a></li>
-                <li><a className='hover:text-black duration-100 dark:hover:text-white' href="contact">Contact</a></li>
+                <li><a className='hover:text-black duration-100 dark:hover:text-white' href="#about">About</a></li>
+                <li><a className='hover:text-black duration-100 dark:hover:text-white' href="#skills">Skills</a></li>
+                <li><a className='hover:text-black duration-100 dark:hover:text-white' href="#projects">Projects</a></li>
+                <li><a className='hover:text-black duration-100 dark:hover:text-white' href="#contact">Contact</a></li>
             </ul>
             <div className='flex items-center justify-center gap-4 pt-2'>
                 <a href="https://linkedin.com/in/srihaschalla" target='_blank'><Image src={assets.linkedin} alt='' className='w-7 hover:scale-110 transition duration-200 dark:invert' /></a>

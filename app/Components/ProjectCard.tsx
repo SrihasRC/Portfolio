@@ -28,7 +28,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, desc, techStack
             </div>
             <div className='flex gap-6 mt-6 justify-center mb-6'>
                 <a href={codeLink || defSite} target='_blank' className='bg-[#0000005d] text-white px-5 hover:scale-105 py-1.5 rounded-xl hover:bg-[#000000af] duration-200'>View Code</a>
-                <a href={liveSite || defSite} target='_blank' className='bg-[#0000005d] text-white px-5 hover:scale-105 py-1.5 rounded-xl hover:bg-[#000000af] duration-200'>Live Demo</a>
+                <a href={liveSite || defSite} target='_blank' className='bg-[#0000005d] text-white px-5 hover:scale-105 py-1.5 rounded-xl hover:bg-[#000000af] duration-200'>Live Site</a>
             </div>
         </div>
     )
